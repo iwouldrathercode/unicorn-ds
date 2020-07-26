@@ -1,0 +1,33 @@
+{
+  "name": "@iwouldrathercode/unicorn-ds",
+  "version": "1.0.0",
+  "description": "A simple CLI to help make basic architectural decisions datastructure to use; for a given use case",
+  "main": "src/index.js",
+  "bin": {
+    "@iwouldrathercode/unicorn-ds": "bin/unicorn-ds",
+    "unicorn-ds": "bin/unicorn-ds"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwouldrathercode/unicorn-ds.git"
+  },
+  "keywords": [
+    "cli",
+    "unicorn-ds"
+  ],
+  "author": "Shankar <psgganesh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwouldrathercode/unicorn-ds/issues"
+  },
+  "homepage": "https://github.com/iwouldrathercode/unicorn-ds#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
